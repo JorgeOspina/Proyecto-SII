@@ -1,0 +1,282 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Droid Serif', serif;
+}
+.container{
+	margin: auto;
+	-webkit-box-shadow: 1px 1px 10px 3px #969696;
+	box-shadow: 1px 1px 10px 3px #969696;
+}
+
+.ul{
+	list-style: none;
+	padding: 0;
+}
+.logo{
+	margin: 20px 0 0 0;
+}
+.social-links{
+	margin-top: 10px;
+}
+.social-links ul li{
+	display: inline-block;
+}
+
+.nav li{
+	display: inline-block;
+	padding: 5px 20px;
+
+}
+.ul-menu{
+	text-align: center;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+color: white;
+
+
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+color: #0B0B0B;
+background-color: #e7e7e7;
+}
+
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+color: #FFF;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+color: #FFFFFF;
+background-color: rgba(255, 255, 255, 0);
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+color: #FFF;
+
+}
+.red{
+	color: red;
+}
+.navbar-nav .open .dropdown-menu {
+background-color: rgba(53, 152, 152, 1);
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+background: rgba(255, 255, 255, 0);
+font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:hover {
+color: white;
+font-weight: bold;
+}
+.nav li a:hover{
+	text-decoration: none;
+}
+
+.dropdown-menu>li>a{
+	color: white;
+}
+
+.dropdown-menu {
+border: 0;
+border-radius: 4px;
+-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.49);
+}
+.navbar-default{
+	text-align: center;
+	margin: 40px 0 0 0;
+	background: #1a8272; /* Old browsers */
+	background: -webkit-linear-gradient(#1a8272 0%, #168589 77%, #539b99 100%);
+	background: linear-gradient(#1a8272 0%, #168589 77%, #539b99 100%); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */
+	border: none;
+	border-radius: 0;
+
+}
+
+.botones{
+	background: #1a8272; /* Old browsers */
+	background: -webkit-linear-gradient(#1a8272 0%, #168589 77%, #539b99 100%);
+	background: linear-gradient(#1a8272 0%, #168589 77%, #539b99 100%); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */
+	
+	
+
+}
+
+
+.background{
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C */
+}
+
+.nav-forms{
+	border-radius: 5px;
+}
+
+.aside ul{
+	padding: 15px;
+}
+
+.aside ul li a{
+	color: black;
+	text-decoration: none;
+
+}
+
+.aside ul li a:hover{
+	font-weight: bold;
+}
+
+hr{
+margin-top: 10px;
+margin-bottom: 10px;
+border: 0;
+border-top: 1px solid #B8C0C0;
+}
+
+.menu-forms{
+	margin: 20px 5px;
+}
+
+
+.captcha{
+	padding: 10px;
+	font-weight: bolder;
+	background-color: #012;
+	color: white;
+	border-radius: 5px;
+	font-size: 40px;
+}
+
+p{
+	width: 200px;
+}
+
+.btn{
+	
+	margin:1px;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+
+.ciu{
+	margin: auto;	
+	
+	padding-bottom: 100px;
+	border-radius: 5px;
+
+}
+
+.link-ciu a{
+	color: white;
+	
+	text-decoration: none;
+}
+
+.link-ciu{
+	margin: 45px 0 0 0;
+	
+}
+
+.cancelar a{
+	color: white;
+	text-decoration: none;
+}
+
+.cancelar1{
+	margin: 32px 0 0 40px;
+
+}
+
+.center{
+	margin:auto;
+}
+
+.separar{
+	margin-top: 30px;
+}
+
+label{
+	padding-top: 20px;
+}
+
+.anexos{
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid rgba(14, 15, 14, 0.19);
+}
+
+.padding{
+	padding: 10px;
+}
+.padding-form{
+	padding-left: 15px;
+}
+
+.login{
+	-webkit-box-shadow: 2px 2px 3px 3px #0B6C80;
+box-shadow: 2px 2px 3px 3px #0B6C80;
+
+width: 50%;
+margin-bottom: 40px;
+}
+
+.fields_login>a:hover{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+
+}
+.fields_login>a{
+	color: black;
+
+}
+.fields_login{
+	margin-top: 20px;
+	border: 1px solid gray;
+	text-align: center;
+	border-radius: 5px;
+	
+}
+.fields_login:hover{
+	background: linear-gradient(#1a8272 0%, #168589 77%, #539b99 100%);
+	
+}
+
+.tipologia{
+	margin: auto;	
+
+	margin-bottom: 40px;
+}
+
+.radiob{
+	margin-bottom: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+th>a:hover{
+	text-decoration: none;
+	color: #1a8272;
+	font-weight: bold;
+}
+
+
+th>a{
+	color: black;
+}
+
+th a{
+
+}
